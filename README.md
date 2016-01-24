@@ -41,6 +41,8 @@ As this data isn't being added to an SQL database i didnt put any SQL injection 
 
 ## How to use the form
 
+###This form needs to be added to a linux system running PHP 5 or higher. I have localized the javascript library so an internet connection wouldn't be needed.
+
 I tried to keep the form as simple as possible but i also wanted to make it scalable so some features have been added. The form works the same as a normal update field form but i have added column and row adding/removing functions. To add/remove rows and columns there are two images (a green plus and a red minus) at the bottom of the form which can be clicked to update the form, i have labelled them accordingly. There is also a submit button to update the form. For testing purposes i added a display below the table which shows you an array of the data that has been updated so you don't have
 to look in the datastore.ser
 
