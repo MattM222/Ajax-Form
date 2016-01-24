@@ -34,8 +34,8 @@ datastore.set
 
 The form works by using an ajax GET request function. All the data is handled and displayed by the submit.php file which is then sent back to form.php
 The reason i chose Ajax is because it provides a seamless transition of data transfer from the front-end to the datastore.ser and is still secure. This can be used with relational SQL tables.
-I wanted to ensure the page didnt do a full refresh each time data was submitted as that adds extra server resource usage as the page would have to be fully reloaded each time an update was made.
-I have stored all the data in a serialized array which is updated to the datastore.ser file. For security reasons if the file is not present it will create a new one, this means a new file would not need to be manually added.
+I wanted to ensure the page didnt do a full refresh each time data was submitted because this adds extra resource and load usage to the server as the page would have to be fully reloaded each time an update was made.
+I have stored all the data in a serialized array which is updated to the datastore.ser file, it is then returned and applies these changes to the input fields so the user can see the inputs if they were to leave and come back. For security reasons if the file is not present it will create a new one, this means a new file would not need to be manually added.
 As this data isn't being added to an SQL database i didnt put any SQL injection protection in place.
 
 
