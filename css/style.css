@@ -1,0 +1,56 @@
+.action_btn {
+	text-decoration:none;
+	color:#454545;
+	
+}
+.main_form {
+	margin-top:60px;
+}
+.row_number {
+
+	float:right;
+}
+.index_row{
+	min-width:80px;
+}
+h2 {
+	color:#37bc9b;
+	margin-left:80px;
+	margin-bottom:-50px;
+}
+.upload_results {
+	padding:20px;
+	border-top:1px solid #454545;
+}
+.btn{
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	text-transform:uppercase;
+	padding:10px 15px 10px 15px;
+	color:#ffffff;
+	font-weight:500;
+	border:1px solid transparent;
+	letter-spacing:0.2em;
+	cursor:pointer;
+}
+.btn.submit_btn{
+	background-color:#37bc9b;
+	border:none;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+.btn.submit_btn:hover,
+.btn.submit_btn:active,
+.btn.submit_btn.hover{
+	background-color:#48cfad;
+	border:none;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
