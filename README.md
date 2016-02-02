@@ -1,4 +1,4 @@
-# Sky Betting & Gaming Technical Test by Matthew Moore
+# Ajax Form
 
 ## Languages used:
 | Ajax | PHP | JavaScript | CSS | HTML |
