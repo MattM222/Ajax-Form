@@ -19,11 +19,11 @@
 
 /* default first column header */
 
-$first_header = "First Name";
+	$first_header = "First Name";
 
 /* default second column header */
 
-$second_header = "Surname";
+	$second_header = "Surname";
 
 /* The amount of maximum columns that can be displayed */
 
