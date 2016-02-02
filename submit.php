@@ -112,7 +112,7 @@
 	}
 	
 
-/* this is added to protect the form from creating too many columns */
+/* this is added to protect the form from removing too many columns */
 
 	if($column == $column_limit || $column > $column_limit){
 		$prevent_column_adding = "";
